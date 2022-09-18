@@ -1,0 +1,129 @@
+    //reset
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    *,
+    *::after,
+    *::before {
+        box-sizing: inherit;
+    }
+    
+    html {
+        font-size: 62.5%;
+        @media (max-width: 600px) {
+            font-size: 56%;
+        }
+    }
+    
+    //fonts
+    @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800&display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Noto+Kufi+Arabic&display=swap");
+    $bold: 800;
+    $semibold: 600;
+    $regular: 400;
+    $light: 300;
+    //font size
+    $header: 2.7rem;
+    $title: 1.7rem;
+    $body: 1.4rem;
+    $caption: 1.3rem;
+    //colors
+    $color-purple: #7c5dfa;
+    $color-purple-light: #7e88c3;
+    $color-purple-very-light: #dfe3fa;
+    //
+    $color-gray-dark: #373b53;
+    $color-gray-light: #f9fafe;
+    //
+    $color-orange: #ff8f00;
+    $color-green: #33d69f;
+    $color-red: #ec5757;
+    //
+    $color-dark: #141625;
+    $color-dark-blue: #1e2139;
+    //box
+    $small-radius: 6px;
+    $medium-radius: 20px;
+    body {
+        box-sizing: border-box;
+        position: relative;
+        @extend .custom-scroll;
+        font-family: "Mulish", sans-serif;
+        --color-primary: #{$color-gray-light};
+        --color-primary-rgb: 248, 248, 251;
+        --color-primary-2: #{$color-dark};
+        --color-primary-2-rgb: 20, 22, 37;
+        //
+        --color-secondary: #{$color-gray-dark};
+        --color-secondary-2: #{$color-purple-light};
+        //
+        --color-tertiray: white;
+        --color-tertiray-2: #{$color-dark};
+        --color-tertiray-3: #{$color-gray-dark};
+    }
+    
+    .dark {
+        --color-primary: #{$color-dark};
+        --color-primary-rgb: 20, 22, 37;
+        --color-primary-2: #{$color-gray-light};
+        --color-primary-2-rgb: 249, 250, 254;
+        //
+        --color-secondary: #{$color-dark-blue};
+        --color-secondary-2: #{$color-purple-very-light};
+        --color-tertiray: #{$color-dark-blue};
+        --color-secondary-3: #{$color-gray-dark};
+        //
+        --color-tertiray-2: #{$color-gray-dark};
+        --color-tertiray-3: black;
+    }
+    
+    html,
+    body {
+        height: 100%;
+        background-color: var(--color-primary);
+        overflow-x: hidden;
+    }
+    
+    .content-layout {
+        margin: 0 15%;
+        @media (max-width: 1000px) {
+            margin: 0;
+        }
+    }
+    
+    .page-padding {
+        padding: 5%;
+    }
+    
+    .card-shadow {
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+    }
+    
+    .card-style {
+        background-color: var(--color-tertiray);
+        border-radius: $small-radius;
+        padding: 2.5rem 2rem;
+        margin: 2rem 0;
+    }
+    
+    .custom-scroll {
+        /* Width */
+        &::-webkit-scrollbar {
+            width: 5px;
+        }
+        /* Track */
+        &::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: $small-radius;
+        }
+        /* Handle */
+        &::-webkit-scrollbar-thumb {
+            background: rgba($color-purple, 0.5);
+            border-radius: $small-radius;
+            &:hover {
+                background: rgba($color-purple, 0.7);
+            }
+        }
+    }
