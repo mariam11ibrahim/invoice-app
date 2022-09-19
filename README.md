@@ -17,6 +17,12 @@ Users should be able to:
 - Toggle light and dark mode ✅
 - Bonus: Keep track of any changes, even after refreshing the browser (localStorage could be used  for this if you're not building out a full-stack app) ✅
 
+## Live URl 👀
+Invoice app   [link](https://invoices-tracker-app.netlify.app/)
+
+**Note**    <small style="color: #e0e0e0">*I am using Netlify to deploy this app, so If the link is not working, try to use VPN.*
+</small>  
+
 
 ## Built with
 
@@ -24,7 +30,6 @@ Users should be able to:
 - Vuex
 - Sass 
 - UUID (to generate unique ids)
-
 
 ## Things I Learned
 
@@ -35,7 +40,7 @@ I am trying to learn and apply the best practices. I don't know how clean or reu
 
 
 ## Reach me
-[Mariam Ibrahim](https://www.linkedin.com/in/mariam11ibrahim/)
+Linkedin [Mariam Ibrahim](https://www.linkedin.com/in/mariam11ibrahim/)
 
 
 
