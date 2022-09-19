@@ -28,12 +28,9 @@ Users should be able to:
 
 ## Things I Learned
 
-This my fist vue application
-All I want from developing this app is to practice Vue feautuers ex: Options API, Vuex, slots, animation, routing...
+This is my first vue application All I want from developing this app is to practice Vue features ex: Options API, Vuex, slots, animation, routing...
 
-I am trying to learn and apply the best practices.
-I dont know how clean or reusable my code is and  I might have come up with my own way of doing things here and there. 
-So feel free to explore the code and write your feedback.
+I am trying to learn and apply the best practices. I don't know how clean or reusable my code is and I might have come up with my own way of doing things here and there. So feel free to explore the code and write your feedback.
 
 
 

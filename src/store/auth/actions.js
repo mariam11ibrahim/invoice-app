@@ -1,5 +1,4 @@
 const API_KEY = process.env.VUE_APP_API_KEY;
-console.log(API_KEY)
 let logoutTimer;
 export default {
     async authenticate(context, payload) {
